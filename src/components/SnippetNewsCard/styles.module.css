@@ -1,0 +1,9 @@
+.newsCard {
+  background-color: transparent;
+  max-width: 1000px;
+}
+
+.button {
+  padding: 17px 9px;
+  background-color: #272727;
+}

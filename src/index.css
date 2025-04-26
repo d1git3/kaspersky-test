@@ -1,0 +1,22 @@
+:root {
+  --color-dark: #000000;
+  --color-gray: #9daebc;
+  --color-primary: #1677ff;
+}
+
+#root {
+  padding: 20px;
+  background-color: var(--color-dark);
+}
+
+.highlight {
+  padding: 0px 5px 2px;
+  background-color: var(--color-primary);
+  border-radius: 5px;
+}
+
+.colorGray,
+.ant-tag,
+.anticon:not(button .anticon) {
+  color: var(--color-gray);
+}
